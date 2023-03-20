@@ -1,0 +1,18 @@
+openapi: 3.0.1
+info:
+  title: HelloWorld
+  description: API Definition of HelloWorld
+  version: 1.0.0
+servers:
+- url: "{server}:{port}/hello"
+  variables:
+    server:
+      default: http://localhost
+    port:
+      default: "8080"
+paths:
+  /message:
+    get:
+      responses:
+        default:
+          description: Default response
