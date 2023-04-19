@@ -1,4 +1,4 @@
-package io.github.chameera.springhello.controller;
+package io.github.chameerar.springhello.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
